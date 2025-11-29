@@ -1,0 +1,31 @@
+{
+    "_comment_Brand": "Available brands: mercado-pago or transferencia-bancaria",
+    "brand": "mercado-pago",
+    
+    "_comment_InitialFormType": "Available values: cuitOnly, fullNameOnly, selectAndDoc",
+    "initialFormType": "cuitOnly",
+
+    "_comment_ShowCompassLogo": "Available values: logo-top, empty string for no logo",
+    "showCompassLogo": "",
+    
+    "_comment_RedirectUrls": "URLs to redirect after payment completion or cancellation",
+    "redirectUrl": "https://www.google.com/",
+    "cancelRedirectUrl": "https://yandex.com/",
+
+    "_comment_timerSecond": "For e.g. 120 this is 2 minutes",
+    "timerSecond": 180,
+
+    "_comment_testDocumentValidationResponseStatusSuccess": "Name or DNI status for server responce test. Available values: true or false",
+    "testDocumentValidationResponseStatusSuccess": true,
+
+    "_comment_testFinalSendResponseStatusSuccess": "Server response status for final send test. Available values: true or false",
+    "testFinalSendResponseStatusSuccess": true,
+
+    "_comment_WarningContents": "Tips text in Atención section for each step",
+    "warningContent_Step1": "<p>Tenga en cuenta que cualquier error cometido durante el proceso de pago puede provocar lapérdida de fondos.</p><p>Compruebe que los datos introducidos soncorrectos y pertenecen al titular de la cuenta que se utilizará para transferir los fondos.</p>",
+    "warningContent_Step2_CUIT_ONLY": "<ol><li>Verifique el importe de la transferencia. Debe coincidir exactamente con el importe que aparece en esta pantalla.</li><li>Guarde el recibo después del pago. Si observa algún problema, póngase en contacto con el servicio de atención al cliente del punto de venta.</li><li>Realice el envio del dinero al destinatario utilizando el CVU que aparece en esta pantalla. ¡Nunca utilice datos de pagos anteriores!</li><li>Realice la transferencia únicamente a través de la cuenta  vinculada a su CUIL/CUIT.</li></ol>",
+    "warningContent_Step2_FULLNAME_ONLY": "<ol><li>Verifique el importe de la transferencia. Debe coincidir exactamente con el importe que aparece en esta pantalla.</li><li>Guarde el recibo después del pago. Si observa algún problema, póngase en contacto con el servicio de atención al cliente del punto de venta.</li><li>Realice el envio del dinero al destinatario utilizando el CVU que aparece en esta pantalla. ¡Nunca utilice datos de pagos anteriores!</li><li>Realice la transferencia únicamente a través de la cuenta  vinculada a su nombre y apellidos.</li></ol>",
+    "warningContent_Step2_SELECT_AND_DOC": "<ol><li>Verifique el importe de la transferencia. Debe coincidir exactamente con el importe que aparece en esta pantalla.</li><li>Guarde el recibo después del pago. Si observa algún problema, póngase en contacto con el servicio de atención al cliente del punto de venta.</li><li>Realice el envio del dinero al destinatario utilizando el CVU que aparece en esta pantalla. ¡Nunca utilice datos de pagos anteriores!</li><li>Realice la transferencia únicamente a través de la cuenta  vinculada a su CUIT/CUIL o DNI.</li></ol>",
+
+    "warningContent_compass_Step1": "<p>Verifique que los datos sean correctos y pertenezcan al titular de la cuenta. Un error podría provocar la pérdida de fondos.</p>"
+}
